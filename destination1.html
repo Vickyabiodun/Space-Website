@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href='fontawesome/css/all.css' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+  <link href='destination.css' rel='stylesheet'>
+
+  <title>Space tourism website</title>
+  <style>
+
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row nav justify-content-between mt-lg-5 mb-5">
+
+        <div class="col-lg-1 col-sm-2 col-3 navcontent mt-lg-4 mt-4">
+    
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" ><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+        </div>
+        <div class="col-lg-4 navcontent hidden_div">
+            <hr class="mt-lg-5 hrline">
+    
+        </div>
+        <!--The normal navbar-->
+        <div class="col-lg-7 col-sm-8 mt-lg-2 other_devices" id="navtext">
+            <div class="col-lg-12 col-sm-12 align-self-center">
+                
+                <ul id="navbar">
+                    <li ><a href="index.html"><span class="num_nav">00</span> HOME</a></li>
+                    <li id="destination"><a href="destination1.html"><span class="num_nav">01</span> DESTINATION</a></li>
+                    <li ><a href="crew.html" ><span class="num_nav">02</span> CREW</a></li>
+                    <li ><a href="tech.html" ><span class="num_nav">03</span> TECHNOLOGY</a></li>
+                  </ul>
+                  
+    
+            </div>
+        </div>
+        <!-- The navbar for small devices-->
+        <i class="fa-solid fa-bars fa-2x  small_devices col-2 mt-4  me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
+    
+        <div class="col-lg-7 col-sm-8 mt-lg-2 small_devices offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel" id="navtext">
+            <div class="offcanvas-header col-12 justify-content-end">
+                <i class="fa-solid fa-xmark fa-2x me-1" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+              </div>
+                    <div class="offcanvas-body col-12">
+                        <ul id="navbar">
+                            <li><a href="index.html"><span class="num_nav me-2">00</span> HOME</a></li>
+                            <li><a href="destination1.html"><span class="num_nav me-2">01</span> DESTINATION</a></li>
+                            <li ><a href="crew.html" ><span class="num_nav me-2">02</span> CREW</a></li>
+                            <li ><a href="tech.html" ><span class="num_nav me-2">03</span> TECHNOLOGY</a></li>
+                          </ul>
+                    </div>
+    
+        </div>
+    
+    
+    </div>
+
+<div class="row mt-lg-5 ms-lg-5 mb-lg-5" id="pick_dest">
+    <div class="col-12 ms-lg-5 mt-lg-5 mb-lg-5">
+        <p><span id="num">01</span> <span id="dest">PICK YOUR DESTINATION</span></p>
+
+
+    </div>
+</div>
+<!--Moon and other headers-->
+
+<div class="row justify-content-end mt-5 mb-5">
+
+    <div class="col-lg-5 ms-lg-5 col-sm-10 ms-3" id="headers_destination">
+
+        <ul id="moon" >
+            <li id="one"><a href="#" >MOON</a></li>
+            <li  id="two"><a href="#">MARS</a></li>
+            <li id="three"><a href="#" >EUROPA</a></li>
+            <li id="four"><a href="#">TITAN</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--Moon-->
+<div class="row justify-content-around lastdiv mt-lg-5" id="optionmoon">
+    <div class="col-lg-4 col-12 mt-lg-3 image mb-5">
+        
+        <img src="assets/destination/image-moon.png" alt="moon" class="img-fluid mt-lg-5">
+    </div>
+    <div class="col-lg-4 col-sm-10  col-12" >
+    
+        <p class="moon_name mt-lg-5 mb-lg-1 mb-sm-5">MOON</p>
+        <p class="lasttext  mb-sm-5">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+        </p>
+          <hr class="mt-lg-5 mb-lg-5  mb-sm-5 col-12 col-sm-12">
+
+        <div class="row mt-5 "id="measurement">
+
+            <div class="col-lg-6 col-sm-6 col-12 mb-3">
+                <p class="avg">AVG. DISTANCE</p>
+                <p class="km">384,400 KM</p>
+
+            </div>
+            <div class="col-lg-6 col-sm-6 col-12 ">
+                <p class="avg">EST. TRAVEL TIME</p>
+                <p class="km">3 DAYS</p>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Mars-->
+<div class="row justify-content-around lastdiv mt-lg-5" id="mars">
+    <div class="col-lg-4 col-12 mt-lg-3 image mb-5" >
+        
+        <img src="assets/destination/image-mars.png" alt="mars" class="img-fluid mt-lg-5">
+    </div>
+    <div class="col-lg-4 col-sm-10  col-12">
+        <p class="moon_name mt-lg-5 mb-lg-1 mb-sm-5">MARS</p>
+        <p class="lasttext  mb-sm-5">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!
+        </p>    
+
+          <hr class="mt-lg-5 mb-lg-5 mb-sm-5 col-12 col-sm-12">
+
+          <div class="row mt-5 " id="measurement">
+
+            <div class="col-sm-6 col-lg-6 col-12">
+                <p class="avg">AVG. DISTANCE</p>
+                <p class="km">225 MIL. KM</p>
+
+            </div>
+            <div class="col-sm-6 col-lg-6 col-12">
+                <p class="avg ">EST. TRAVEL TIME</p>
+                <p class="km">9 MONTHS</p>
+            
+            </div>
+          </div>
+    </div>
+</div>
+<!--Europa-->
+<div class="row justify-content-around lastdiv mt-lg-5" id="europa">
+    <div class="col-lg-4 col-12 mt-lg-3 image mb-5" >
+        
+        <img src="assets/destination/image-europa.png" alt="europa" class="img-fluid mt-lg-5">
+    </div>
+    <div class="col-lg-4 col-sm-10  col-12" id="one">
+      
+        <p class="moon_name mt-lg-5 mb-lg-1 mb-sm-5">EUROPA</p>
+        <p class="lasttext mb-sm-5">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.
+        </p>    
+
+          <hr class="mt-lg-5 mb-lg-5 mb-sm-5 col-12 col-sm-12">
+
+          <div class="row mt-5 " id="measurement">
+
+            <div class="col-lg-6 col-sm-6 col-12 mb-5">
+                <p class="avg">AVG. DISTANCE</p>
+                <p class="km">628 MIL. KM</p>
+
+            </div>
+            <div class="col-lg-6 col-sm-6 col-12 ">
+                <p class="avg">EST. TRAVEL TIME</p>
+                <p class="km">3 YEARS</p>
+            
+            </div>
+          </div>
+    </div>
+</div>
+<!--Titan-->
+<div class="row justify-content-around lastdiv mt-lg-5" id="titan">
+    <div class="col-lg-4 col-12 mt-lg-3 image mb-5" >
+        
+        <img src="assets/destination/image-titan.png" alt="titan" class="img-fluid mt-lg-5">
+    </div>
+    <div class="col-lg-4 col-sm-10  col-12 ">
+       
+        <p class="moon_name mt-lg-5 mb-lg-1 mb-sm-5">TITAN</p>
+        <p class="lasttext mb-sm-5">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.
+
+        </p>    
+          <hr class="mt-lg-5 mb-lg-5  mb-sm-5  col-12 col-sm-12">
+
+          <div class="row mt-5 " id="measurement">
+
+            <div class="col-lg-6 col-sm-6 col-12 mb-5">
+                <p class="avg">AVG. DISTANCE</p>
+                <p class="km">1.6 BIL. KM</p>
+
+            </div>
+            <div class="col-lg-6 col-sm-6 col-12 mb-5">
+                <p class="avg">EST. TRAVEL TIME</p>
+                <p class="km">7 YEARS</p>
+            
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+
+<script type='text/javascript' src='js/jquery-3.6.1.min.js'></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js">    
+  
+</script>
+<script type='text/javascript'>
+    $(document).ready(function(){
+          
+          $('#one').click(function(){
+
+              $('#optionmoon').show(2,function(){
+                ($('#mars, #europa, #titan')).hide()
+
+
+              })
+
+              
+
+
+          });
+          $('#two').click(function(){
+              $('#mars').show(function(){
+                $('#mars').css('display', 'flex');
+              ($('#optionmoon,#europa, #titan')).hide()
+
+
+              })
+
+              
+
+
+          });
+
+          $('#three').click(function(){
+            $('#europa').show(function(){
+            $('#europa').css('display', 'flex');
+            ($('#optionmoon,#mars, #titan')).hide()
+
+            })
+            });
+
+            $('#four').click(function(){
+            $('#titan').show(function(){
+            $('#titan').css('display', 'flex');
+            ($('#optionmoon,#mars, #europa')).hide()
+
+
+            })
+
+
+
+
+            });
+
+        })
+</script>
+</body>
+</html>

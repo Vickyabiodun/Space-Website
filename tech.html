@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href='fontawesome/css/all.css' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+  <link href='tech.css' rel='stylesheet'>
+  <title>Space tourism website</title>
+  <style>
+  
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row nav justify-content-between mt-lg-5 mb-5">
+
+    <div class="col-lg-1 col-sm-2 col-3 navcontent mt-lg-4 mt-4">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+    </div>
+    <div class="col-lg-4 navcontent hidden_div">
+        <hr class="mt-lg-5 hrline">
+
+    </div>
+        <!--The normal navbar-->
+
+        <div class="col-lg-7 col-sm-8 mt-lg-2 other_devices" id="navtext">
+            <div class="col-lg-12 col-sm-12 align-self-center">
+                
+                <ul id="navbar">
+                    <li ><a href="index.html"><span class="num_nav">00</span> HOME</a></li>
+                    <li ><a href="destination1.html"><span class="num_nav">01</span> DESTINATION</a></li>
+                    <li><a href="crew.html" ><span class="num_nav">02</span> CREW</a></li>
+                    <li  id="destination"><a href="tech.html" ><span class="num_nav">03</span> TECHNOLOGY</a></li>
+                  </ul>
+                  
+    
+            </div>
+        </div>
+        <!-- The navbar for small devices-->
+        <i class="fa-solid fa-bars fa-2x small_devices col-2 mt-4  me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
+    
+        <div class="col-lg-7 col-sm-8 mt-lg-2 small_devices offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel" id="navtext">
+            <div class="offcanvas-header col-12 justify-content-end">
+                <i class="fa-solid fa-xmark fa-2x me-2" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+              </div>
+                    <div class="offcanvas-body col-12">
+                        <ul id="navbar">
+                            <li><a href="index.html"><span class="num_nav me-2">00</span> HOME</a></li>
+                            <li><a href="destination1.html"><span class="num_nav me-2">01</span> DESTINATION</a></li>
+                            <li ><a href="crew.html" ><span class="num_nav me-2">02</span> CREW</a></li>
+                            <li ><a href="tech.html" ><span class="num_nav me-2">03</span> TECHNOLOGY</a></li>
+                          </ul>
+                    </div>
+    
+            </div>
+        </div>
+</div>
+<!--Space Header-->
+<div class="row mt-lg-5">
+    <div class="col-lg-8 col-sm-12 col-10 ms-lg-5 ms-sm-5 mt-lg-5 mt-sm-2">
+        <p class="mt-lg-5 ms-4  col-sm-12 col-10"><span id="num">03</span> <span id="dest">SPACE LAUNCH 101</span></p>
+
+
+    </div>
+</div>
+
+<!--Large Devices-->
+<div class="row justify-content-center lastdiv large_device">
+    <div class="col-1 mt-lg-5">      
+        <a href="tech.html"><p class="number_circle mt-lg-5" id="colored_circle"><span class="mt-lg-3 align_number">1</span></p></a>
+        <a href="tech2.html"><p class="number_circle mt-lg-4 uncolored_circle" ><span class="mt-lg-3 align_number">2</span></p></a>
+        <a href="tech3.html"><p class="number_circle mt-lg-4 uncolored_circle"><span class="mt-lg-3 align_number">3</span></p></a>
+
+    </div>
+    <div class="col-5 mt-lg-5">      
+        <p class="term mt-lg-5">THE TERMINOLOGY...</p>
+        <p class="launch">LAUNCH VEHICLE</p>
+        <p class="main_text">A launch vehicle or carrier rocket is a rocket-propelled<br> vehicle used to carry a payload from Earth's surface to<br> space, usually to Earth orbit or beyond. Our WEB-X<br> carrier rocket is the most powerful in operation. Standing<br> 150 metres tall, it's quite an awe-inspiring sight on the<br> launch pad!</p>
+    </div>
+    <div class="col-5">
+        <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="launch-vehicle-portrait" class="img-fluid ">
+
+        
+    </div>
+</div>
+<!--Small and medium Devices-->
+<div class="row justify-content-center lastdiv small_device">
+    <div class="col-sm-12 col-11 mt-3">
+        <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="launch-vehicle-portrait" class="img-fluid">
+
+        
+    </div>
+    <div class="col-sm-3 col-8 mt-5 "> 
+        <ul>    
+        <a href="tech.html" id="colored_a"><li class="number_circle me-3" id="colored_circle"><span class="mt-3 align_number">1</span></li></a>
+        <a href="tech2.html"><li class="number_circle me-3 uncolored_circle" ><span class="mt-3 align_number">2</span></li></a>
+        <a href="tech3.html"><li class="number_circle me-3 uncolored_circle"><span class="mt-3 align_number">3</span></li></a>
+        </ul> 
+    </div>
+    <div class="col-12 mt-5">      
+        <p class="term">THE TERMINOLOGY...</p>
+        <p class="launch">LAUNCH VEHICLE</p>
+        <p class="main_text ms-sm-3 me-sm-3 ms-2 me-2">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+    </div>
+
+</div>
+
+</div>
+<script type='text/javascript' src='js/jquery-3.6.1.min.js'></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js">    
+  
+</script>
+</body>
+</html>

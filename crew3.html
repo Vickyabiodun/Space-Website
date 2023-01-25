@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href='fontawesome/css/all.css' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+  <link href='crew3.css' rel='stylesheet'>
+
+  <title>Space Crew Member</title>
+  
+</head>
+<body>
+<div class="container-fluid">
+<div class="row nav  justify-content-between mt-lg-5">
+
+    <div class="col-lg-1 col-sm-4 col-3 navcontent mt-lg-4 mt-4">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+    </div>
+    <div class="col-lg-4 navcontent hidden_div">
+        <hr class="mt-lg-5 hrline">
+
+    </div>
+     <!--The normal navbar-->
+     <div class="col-lg-7 col-sm-8 mt-lg-2 other_devices" id="navtext">
+        <div class="col-lg-12 col-sm-12 align-self-center">
+            
+            <ul id="navbar">
+                <li ><a href="index.html"><span class="num_nav">00</span> HOME</a></li>
+                <li ><a href="destination1.html"><span class="num_nav">01</span> DESTINATION</a></li>
+                <li id="destination"><a href="crew.html" ><span class="num_nav">02</span> CREW</a></li>
+                <li ><a href="tech.html" ><span class="num_nav">03</span> TECHNOLOGY</a></li>
+              </ul>
+              
+
+        </div>
+    </div>
+    <!-- The navbar for small devices-->
+    <i class="fa-solid fa-bars fa-2x small_devices col-2 mt-4  me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
+
+    <div class="col-lg-7 col-sm-8 mt-lg-2 small_devices offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel" id="navtext">
+        <div class="offcanvas-header col-12 justify-content-end">
+            <i class="fa-solid fa-xmark fa-2x me-2" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+          </div>
+                <div class="offcanvas-body col-12">
+                    <ul id="navbar">
+                        <li><a href="index.html"><span class="num_nav me-2">00</span> HOME</a></li>
+                        <li><a href="destination1.html"><span class="num_nav me-2">01</span> DESTINATION</a></li>
+                        <li ><a href="crew.html" ><span class="num_nav me-2">02</span> CREW</a></li>
+                        <li ><a href="tech.html" ><span class="num_nav me-2">03</span> TECHNOLOGY</a></li>
+                      </ul>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Crew member-->
+<div class="crew_header mt-5 mb-5">
+    <p class="mb-lg-5 mt-lg-5  crew_p"><span id="num">02</span> <span id="dest">MEET YOUR CREW</span></p>
+
+
+</div>
+<!--FOR LArge and medium devices-->
+<div class="row justify-content-around lastdiv mt-lg-5 mt-5 large_device">
+    <div class="col-lg-4 col-12">
+        <p class="commander">PILOT </p>
+        <p class="name mb-lg-3">Victor Glover</p>
+        <p class="lasttext ">
+            Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. 
+        </p>
+ <p class="fa">
+    <a href="crew.html"><i class="fa-regular fa-circle me-3 me-lg-3"></i></a>
+    <a href="crew2.html"><i class="fa-regular fa-circle me-3 me-lg-3"></i></a>
+    <a href="crew3.html"><i class="fa-regular fa-circle me-3 me-lg-3 fontawesome"></i></a>
+    <a href="crew4.html"><i class="fa-regular fa-circle me-3 "></i></a>
+ </p>   
+    </div>
+    <div class="col-5 mt-lg-5">
+        <img src="assets/crew/image-victor-glover.png" alt="Douglas" class="img-fluid mt-lg-5">
+
+        
+    </div>
+</div>
+<!--For smaller devices-->
+<div class="row justify-content-around lastdiv mt-lg-5 mt-5 small_device">
+    <div class="col-lg-5 col-12 mt-sm-4 mb-2">
+        <img src="assets/crew/image-victor-glover.png" alt="Douglas" class="img-fluid mt-lg-5">
+
+        
+    </div>
+    
+    <div class="col-lg-4 col-12 mb-5">
+        <p class="fa">
+            <a href="crew.html"><i class="fa-regular fa-circle me-3 me-lg-3"></i></a>
+            <a href="crew2.html"><i class="fa-regular fa-circle me-3 me-lg-3"></i></a>
+            <a href="crew3.html"><i class="fa-regular fa-circle me-3 me-lg-3 fontawesome"></i></a>
+            <a href="crew4.html"><i class="fa-regular fa-circle me-3 "></i></a>
+         </p> 
+        <p class="commander">PILOT </p>
+        <p class="name mb-lg-3">Victor Glover</p>
+        <p class="lasttext mb-5">
+            Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. 
+        </p>
+   
+    </div>
+    
+    
+</div>
+
+
+
+</div>
+<script type='text/javascript' src='js/jquery-3.6.1.min.js'></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js">    
+  
+</script>
+</body>
+</html>
